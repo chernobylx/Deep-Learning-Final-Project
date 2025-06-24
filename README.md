@@ -1,7 +1,7 @@
-MLB Game Score Prediction with a Multi-Output Neural Network
+# MLB Game Score Prediction with a Multi-Output Neural Network
 This repository contains the code and analysis for a deep learning project aimed at predicting multiple outcomes of Major League Baseball (MLB) games. Instead of a simple win/loss prediction, this model simultaneously forecasts four related values: home team score, away team score, total runs, and margin of victory.
 
-The project is detailed in the Jupyter Notebook: mlb-project (3).ipynb.
+The project is detailed in the Jupyter Notebook: mlb-project.ipynb.
 
 Project Overview
 The core of this project is a multi-output neural network built with TensorFlow and Keras. It leverages extensive feature engineering on historical game data to learn the complex patterns that drive game scores. The model's architecture and training process are systematically optimized using Keras Tuner, and a custom loss function is implemented to ensure the predicted scores are mathematically consistent.
