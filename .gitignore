@@ -1,0 +1,32 @@
+# Data (downloaded from Kaggle — see data/README.md)
+data/raw/
+*.csv
+
+# Model artifacts and tuning results
+*.h5
+*.keras
+keras_tuner/
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / tool caches
+.pytest_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
